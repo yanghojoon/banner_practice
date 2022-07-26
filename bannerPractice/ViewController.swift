@@ -159,26 +159,4 @@ extension ViewController: UICollectionViewDataSource, UICollectionViewDelegate {
 
         return bannerCell
     }
-//
-////    func collectionView(
-////        _ collectionView: UICollectionView,
-////        willDisplay cell: UICollectionViewCell,
-////        forItemAt indexPath: IndexPath
-////    ) {
-////        <#code#>
-////    }
-//
-//    func collectionView(
-//        _ collectionView: UICollectionView,
-//        didEndDisplaying cell: UICollectionViewCell,
-//        forItemAt indexPath: IndexPath
-//    ) {
-//        let isDraggingBack = lastContentOffset.x < collectionView.contentOffset.x
-//        let isDraggingFront = lastContentOffset.x > collectionView.contentOffset.x
-//        let isDidDragging = isDraggingBack || isDraggingFront
-//        if isDragging && isDidDragging {
-//            isDragging = false
-//            timer?.invalidate()
-//        }
-//    }
 }
